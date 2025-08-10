@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <!-- Profile Section -->
+    <section>
+      <article class="profile">
+        <header>
+          <figure>
+            <img src="./images/image-jeremy.png" alt="Jeremy Robson Picture">
+          </figure>
+          <div>
+            <p class="profile-text">Report for</p>
+            <h1 class="profile-name">Jeremy Robson</h1>
+          </div>
+        </header>
+
+        <nav>
+          <ul>
+            <li id = "day">Daily</li>
+            <li class="active" id = "week">Weekly</li>
+            <li id = "month">Monthly</li>
+          </ul>
+        </nav>
+      </article>
+    </section>
+
+    <!-- Activity Cards Section -->
+    <section class="activity-section">
+
+      <!-- Work -->
+      <article class="work-card" data-title="Work">
+        <div class="card">
+          <header>
+            <h2>Work</h2>
+            <img src="images/icon-ellipsis.svg" alt="Options icon">
+          </header>
+          <div class="hidden card-text day-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="card-text week-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="hidden card-text month-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Play -->
+      <article class="play-card" data-title="Play">
+        <div class="card">
+          <header>
+            <h2>Play</h2>
+            <img src="images/icon-ellipsis.svg" alt="Options icon">
+          </header>
+          <div class="hidden card-text day-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="card-text week-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="hidden card-text month-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Study -->
+      <article class="study-card" data-title="Study">
+        <div class="card">
+          <header>
+            <h2>Study</h2>
+            <img src="images/icon-ellipsis.svg" alt="Options icon">
+          </header>
+          <div class="hidden card-text day-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="card-text week-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="hidden card-text month-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Exercise -->
+      <article class="exercise-card" data-title="Exercise">
+        <div class="card">
+          <header>
+            <h2>Exercise</h2>
+            <img src="images/icon-ellipsis.svg" alt="Options icon">
+          </header>
+          <div class="hidden card-text day-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="card-text week-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="hidden card-text month-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Social -->
+      <article class="social-card" data-title="Social">
+        <div class="card">
+          <header>
+            <h2>Social</h2>
+            <img src="images/icon-ellipsis.svg" alt="Options icon">
+          </header>
+          <div class="hidden card-text day-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="card-text week-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="hidden card-text month-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Self Care -->
+      <article class="self-care-card" data-title="Self Care">
+        <div class="card">
+          <header>
+            <h2>Self Care</h2>
+            <img src="images/icon-ellipsis.svg" alt="Options icon">
+          </header>
+          <div class="hidden card-text day-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="card-text week-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+          <div class="hidden card-text month-section">
+            <span class="current"></span>
+            <span class="previous"></span>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ayush Awasthi</a>.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
